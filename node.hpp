@@ -33,6 +33,8 @@ public:
     Node* get_right();
     Node* get_up();
     Node* get_down();
+    Node* insert_element(int);
+    void traverse_level();
 };
 
 #endif
